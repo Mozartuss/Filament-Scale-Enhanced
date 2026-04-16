@@ -1,5 +1,7 @@
 import time
 import statistics
+import os
+os.environ.setdefault("LG_WD", "/tmp")
 
 try:
     from RPi import GPIO
